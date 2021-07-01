@@ -1,0 +1,15 @@
+class Solution {
+    public int romanToInt(String s) {
+        System.out.println("integer"+s);
+        int[] values={1000,900,500,400,100,90,50,40,10,9,5,4,1};
+        String romanli={"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+        StringBUilder ROman=new StringBUilder();
+        for(int i=0;i<values.length;i++){
+            while(s>=values[i]){
+                s-=values.i[i];
+                roman.append(ROman[i]);
+            }
+        }
+          System.out.println("Roman: " + roman.toString());
+    }
+}
